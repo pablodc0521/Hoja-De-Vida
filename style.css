@@ -1,0 +1,76 @@
+{ font-family: 'Roboto', sans-serif;
+}
+
+body{
+    margin: 0;
+}
+.informacion{ 
+    width: 100%;
+    height: 50vh;
+    background: rgb(9, 231, 202);
+}
+.informacion h1{
+    font-size: 50px;
+    text-align: center;
+    color: #2577;
+    margin: 0;
+}
+.informacion img{
+    margin: auto;
+    width: 200px;
+    display: block;
+    border-radius: 50%;
+}
+.informacion h2{ 
+    text-align: center;
+    color: #2577ff;
+    background: rgb(114, 231, 4);
+    width: 200px;
+    margin: auto;
+    border: 2px solid black;
+    color: #fff;
+    /* text-align: center; */
+}
+.informacion ul {
+    width: 100%;
+    text-align: center;
+}
+
+.informacion ul li {
+    display: inline-block;
+    width: 150px; 
+    background: rgb(5, 82, 153);
+    padding: 10px; 
+    margin: auto;
+    border: 2px solid black;
+    color: black;
+    /*text-align: center; */
+}
+
+.skills{
+    background: #821de0;
+    height: 50vh;
+}
+.skills h3{
+    margin: 0;
+    text-align: center;
+    color: rgb(110, 247, 240);
+    letter-spacing: 5px;
+}
+.skills ul{ 
+    width: 500px;
+    margin: auto;
+}
+.skills ul li{
+    list-style: none;
+    margin: auto;
+    padding: 15px;
+    font-size: 20px;
+    font-style: normal;
+    display: inline-block;
+}
+.skills ul li img{ 
+    width: 50px;
+    display: block;
+    margin: auto;
+}
